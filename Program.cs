@@ -1,5 +1,4 @@
-﻿
-bool inWork = true;
+﻿bool inWork = true;
 Random random = new Random();
 
 #region Switch
@@ -19,7 +18,7 @@ while (inWork)
         {
             case 1:
                 {
-                    Console.Clear();
+                    //Console.Clear();
                     HandControl();
                     Exit();
 
